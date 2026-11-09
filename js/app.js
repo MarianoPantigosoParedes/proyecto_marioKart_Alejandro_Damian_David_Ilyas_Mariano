@@ -72,3 +72,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (inputCapacidad) inputCapacidad.addEventListener('input', filtrar);
     if (checkLibres) checkLibres.addEventListener('change', filtrar);
 });
+// --- Refresco automático del estado de las salas ---
+setInterval(() => {
+    // Evitamos recargar si el gamemaster está escribiendo activamente en un input o select
+    const inputActivo = document.activeElement;
+    if (inputActivo && (inputActivo.tagName === 'INPUT' || inputActivo.tagName === 'SELECT')) {
+        return; 
+    }
+
+    // Refresca la página cada 45 segundos para mantener el estado real sincronizado
+    location.reload();
+}, 45000);
