@@ -83,3 +83,23 @@ setInterval(() => {
     // Refresca la página cada 45 segundos para mantener el estado real sincronizado
     location.reload();
 }, 45000);
+
+// --- Validación de capacidad en los formularios de ocupación ---
+document.addEventListener('input', (e) => {
+    if (e.target && e.target.name === 'num_jugadores') {
+        const input = e.target;
+        const form = input.closest('form');
+        const btnSubmit = form ? form.querySelector('button[type="submit"]') : null;
+        
+        const valorActual = parseInt(input.value, 10);
+        const valorMaximo = parseInt(input.max, 10);
+
+        if (valorActual > valorMaximo) {
+            input.setCustomValidity(`La capacidad máxima de este módulo es ${valorMaximo}.`);
+            if (btnSubmit) btnSubmit.disabled = true;
+        } else {
+            input.setCustomValidity('');
+            if (btnSubmit) btnSubmit.disabled = false;
+        }
+    }
+});
