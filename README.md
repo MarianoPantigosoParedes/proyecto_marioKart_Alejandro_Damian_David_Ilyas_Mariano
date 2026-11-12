@@ -1,3 +1,4 @@
+
 # Mario DAW World
 
 Aplicación web de intranet de Mario DAW World para que el personal del Gaming Center consulte las salas, ocupe un módulo cuando llega un grupo, lo libere cuando se marcha y consulte el historial de uso.
@@ -93,3 +94,4 @@ Completar con información real del grupo antes de la entrega; no se han inventa
 ## Explicación del código
 
 Antes de entregar, cada integrante debe revisar, probar y explicar con sus propias palabras las rutas, consultas, validaciones y decisiones que haya trabajado, tal como pide la ficha de actividad.
+
