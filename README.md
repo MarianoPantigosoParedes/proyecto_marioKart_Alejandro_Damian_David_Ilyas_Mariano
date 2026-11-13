@@ -75,7 +75,4 @@ Los formularios que modifican datos usan POST y validación en servidor. Las con
 - `sql/db_pj5_gamingCenter.sql`: estructura completa y datos de prueba.
 - `sql/migracion.sql`: migraciones para los dos esquemas existentes admitidos; ejecuta solo la sección correspondiente.
 
-## Explicación del código
-
-Antes de entregar, cada integrante debe revisar, probar y explicar con sus propias palabras las rutas, consultas, validaciones y decisiones que haya trabajado, tal como pide la ficha de actividad.
 
