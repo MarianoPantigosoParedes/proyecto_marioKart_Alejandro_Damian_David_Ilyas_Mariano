@@ -75,22 +75,6 @@ Los formularios que modifican datos usan POST y validación en servidor. Las con
 - `sql/db_pj5_gamingCenter.sql`: estructura completa y datos de prueba.
 - `sql/migracion.sql`: migraciones para los dos esquemas existentes admitidos; ejecuta solo la sección correspondiente.
 
-## Equipo, roles y seguimiento
-
-Completar con información real del grupo antes de la entrega; no se han inventado integrantes ni tareas.
-
-| Integrante | Rol | Tareas concretas realizadas |
-|---|---|---|
-| [Nombre y apellidos] | Coordinación | [Completar] |
-| [Nombre y apellidos] | Impulso | [Completar] |
-| [Nombre y apellidos] | Finalización | [Completar] |
-| [Nombre y apellidos] | [Rol del equipo] | [Completar] |
-| [Nombre y apellidos] | [Rol del equipo] | [Completar] |
-
-- Repositorio GitHub compartido con el profesorado: [Añadir enlace].
-- Planificación Gantt: [Añadir enlace o ubicación].
-- Seguimiento de reuniones diarias: [Añadir ubicación de las actas].
-
 ## Explicación del código
 
 Antes de entregar, cada integrante debe revisar, probar y explicar con sus propias palabras las rutas, consultas, validaciones y decisiones que haya trabajado, tal como pide la ficha de actividad.
